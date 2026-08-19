@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thelittlepony.</title>
+
+    <meta property="og:title" content="thelittlepony">
+    <meta property="og:description" content="just about me, and meow">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        body {
+            background-color: #101010;
+            color: white;
+
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .main {
+            background-color: #202020;
+            padding: 24px;
+            border-radius: 16px;
+        }
+
+        @media (max-width: 800px) {
+            .main {
+                position: fixed;
+
+                top: 12px;
+                bottom: 12px;
+                left: 12px;
+                right: 12px;
+
+                /* min-width: 100vw;
+                min-height: 100vh; */
+            }
+            
+            body {
+                margin: 0;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            display: block;
+        }
+
+        .color-telegram {
+            color: #24A1DE;
+        }
+
+        .color-discord {
+            color: #5865F2;
+        }
+
+        .color-github {
+            color: #0FBF3E;
+        }
+    </style>
+    <div class="main">
+        <h1>hi, i'm thelittlepony.</h1>
+        <p>founder of <b>tlp.</b>, software architect, and a pretty cute dev, who just want to get a hug</p>
+        <p>from russia, ekaterinburg</p>
+        <a class="color-github" href="https://github.com/thelittlepony">github (with my projects)</a>
+        <a class="color-telegram" href="https://t.me/tlpteamdev">telegram</a>
+        <a class="color-discord" href="http://discord.com/users/1015155662877098054">discord (_dragonfire)</a>
+        <h2>need help with tlp. services?</h2>
+        <p>you can contact support here:</p>
+        <a class="color-telegram" href="https://t.me/tlpteamdev_cis">telegram (cis, international support)</a>
+        <a class="color-discord" href="http://discord.gg/n4dU8yBPF2">discord (cis, russian only)</a>
+    </div>
+</body>
+</html>
